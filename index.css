@@ -71,4 +71,5 @@ a img:hover{
     margin: auto;
     border: 1em solid black;
     border-radius: 2em;
+    opacity: 0.85;
 }
