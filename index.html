@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href = "index.css" rel = "stylesheet"></link>
+        <script src = "./javascript/gameManager.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class = "logo">
+                <img src = "./images/logo.jpg"/>
+                <h2>Rock, Paper, Scissors!</h2>
+            </div>
+        </header>
+        <div class = "weapon-section">  
+            <h2 class ="pickWeapon">Pick your weapon and battle Computron!</h2>
+            <div class = "weapon-choice">
+                <a href = "#" class = "rock" onclick = "GameManager('rock')">
+                    <img src ="./images/rock.jpg"/> 
+                    <h3>Rock</h3>
+                </a>
+                <a href = "#" class = "paper" onclick = "GameManager('paper')">
+                    <img src ="./images/paper.jpg"/>
+                    <h3>Paper</h3>
+                </a>
+                <a href = "#" class = "scissors" onclick = "GameManager('scissors')">
+                    <img src ="./images/scissors.jpg"/>
+                    <h3>Scissors</h3>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+
+/*Global styles*/
+* {
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+html{
+    background-image: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ h3{
+    color: white;
+
+}
+a{
+    text-decoration: none;
+}
+/*Header section with logo and game name*/
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    height: 25em;
+    opacity: 0.85;
+};
+
+.logo img {
+    margin-bottom: 0;
+}
+
+.logo h2 {
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    padding-bottom: 1em;
+}
+
+/*Weapon choice section*/
+
+.weapon-choice{
+    background-color: black;
+    opacity: 0.85;
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.weapon-choice img{
+    width: 12.5em;
+    height: 12.5em;
+    margin: 1em;
+    border: 0.25em solid black;
+}
+a img:hover{
+    width: 14.5em;
+    height: 12.5em;
+    box-shadow: -0.5em -0.5em 1em lightblue, 0.5em 0.5em 1em lightblue;
+}
+
+.pickWeapon{
+    background-color: black;
+    color: white;
+    width: 12.75em;
+    margin: auto;
+    border: 1em solid black;
+    border-radius: 2em;
+}
